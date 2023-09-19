@@ -57,7 +57,7 @@ async function main() {
     await Bun.write(
       file,
       `---
-type: conference
+kind: conference
 title: "${talk.title}"
 start: 2023-10-26T08:00:00.000+0100
 end: 2023-10-26T09:00:00.000+0100
